@@ -7,9 +7,7 @@ export default {
   component: Welcome,
 };
 
-export const ToStorybook = () => {
-  throw new Error('foo');
-};
+export const ToStorybook = () => <Welcome showApp={linkTo('Button')} />;
 
 ToStorybook.story = {
   name: 'to Storybook',

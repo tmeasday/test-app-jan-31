@@ -7,12 +7,8 @@ export default {
   component: Button,
 };
 
-export const Text = () => <Button onClick={action('clicked')}>Hello Button</Button>;
+export const Text = () => <Button onClick={action('clicked')}>Hello Button AGA?N</Button>;
 
-export const Emoji = () => (
-  <Button onClick={action('clicked')}>
-    <span role="img" aria-label="so cool">
-      😀 😎 👍 💯
-    </span>
-  </Button>
-);
+export const Emoji = () => {
+  throw new Error('foo');
+};
