@@ -7,7 +7,7 @@ export default {
   component: Button,
 };
 
-export const Text = () => <Button onClick={action('clicked')}>Hello Button</Button>;
+export const Text = () => <Button onClick={action('clicked')}>Hello WORLD</Button>;
 
 export const Emoji = () => (
   <Button onClick={action('clicked')}>
